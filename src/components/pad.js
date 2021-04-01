@@ -33,6 +33,5 @@ const Pad = ({ color, note, letter, playSound }) => {
       {note} ({letter})
     </Button>
   )
-  
 }
 export default Pad

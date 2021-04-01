@@ -42,9 +42,9 @@ const lightState = {
             color: '#87FF65',
         }
     ]
-  }
-  
-  const darkState = {
+}
+
+const darkState = {
     theme: 'dark',
     notes: [
         {
@@ -88,8 +88,8 @@ const lightState = {
             color: '#03cea4',
         }
     ]
-  }
-  const extendedIonian = {
+}
+const extendedIonian = {
     theme: 'light',
     notes: [
         {
@@ -213,8 +213,8 @@ const lightState = {
             color: '#87FF65',
         }
     ]
-  }
-  const extendedDorian = {
+}
+const extendedDorian = {
     theme: 'dark',
     notes: [
         {
@@ -338,8 +338,8 @@ const lightState = {
             color: '#03cea4',
         }
     ]
-  }
-  const extendedPhrygian = {
+}
+const extendedPhrygian = {
     theme: 'dark',
     notes: [
         {
@@ -463,8 +463,8 @@ const lightState = {
             color: '#03cea4',
         }
     ]
-  }
-  const extendedLydian = {
+}
+const extendedLydian = {
     theme: 'light',
     notes: [
         {
@@ -588,8 +588,8 @@ const lightState = {
             color: '#87FF65',
         }
     ]
-  }
-  const extendedMixolydian = {
+}
+const extendedMixolydian = {
     theme: 'light',
     notes: [
         {
@@ -713,8 +713,8 @@ const lightState = {
             color: '#87FF65',
         }
     ]
-  }
-  const extendedAeolian = {
+}
+const extendedAeolian = {
     theme: 'dark',
     notes: [
         {
@@ -838,8 +838,8 @@ const lightState = {
             color: '#03cea4',
         }
     ]
-  }
-  const extendedLocrian = {
+}
+const extendedLocrian = {
     theme: 'dark',
     notes: [
         {
@@ -963,8 +963,8 @@ const lightState = {
             color: '#03cea4',
         }
     ]
-  }
-  const extendedBlues = {
+}
+const extendedBlues = {
     theme: 'dark',
     notes: [
         {
@@ -1093,8 +1093,8 @@ const lightState = {
             color: '#345995',
         },
     ]
-  }
-  const extendedSuperLocrian = {
+}
+const extendedSuperLocrian = {
     theme: 'dark',
     notes: [
         {
@@ -1218,8 +1218,8 @@ const lightState = {
             color: '#03cea4',
         }
     ]
-  }
-  const extendedMinorBebop = {
+}
+const extendedMinorBebop = {
     theme: 'dark',
     notes: [
         {
@@ -1348,8 +1348,8 @@ const lightState = {
             color: '#345995',
         },
     ]
-  }
-  const extendedSousa = {
+}
+const extendedSousa = {
     theme: 'light',
     notes: [
         {
@@ -1478,8 +1478,8 @@ const lightState = {
             color: 'red',
         },
     ]
-  }
-  const extendedDiminished = {
+}
+const extendedDiminished = {
     theme: 'dark',
     notes: [
         {
@@ -1608,8 +1608,8 @@ const lightState = {
             color: '#345995',
         },
     ]
-  }
-  const extendedLydianDominant = {
+}
+const extendedLydianDominant = {
     theme: 'light',
     notes: [
         {
@@ -1733,8 +1733,8 @@ const lightState = {
             color: '#87FF65',
         }
     ]
-  }
-  const extendedFifthModeHarmonicMinor = {
+}
+const extendedFifthModeHarmonicMinor = {
     theme: 'light',
     notes: [
         {
@@ -1858,9 +1858,9 @@ const lightState = {
             color: '#87FF65',
         }
     ]
-  }
-  
-  export default {
+}
+
+export default {
     "light": lightState,
     "dark": darkState,
     "Ionian": extendedIonian,
@@ -1877,4 +1877,4 @@ const lightState = {
     "MinorBebop": extendedMinorBebop,
     "SousaBebop": extendedSousa,
     "Diminished": extendedDiminished,
-  }
+}

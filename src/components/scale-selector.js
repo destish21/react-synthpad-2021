@@ -17,7 +17,7 @@ const categories = Object.entries(scales).reduce((accumulator, curr) => {
 const [key, scale] = curr
 accumulator[scale.theme].push(key)
 return accumulator
-}, {light: [], dark: [] })
+}, { light: [], dark: [] })
 
 const ScaleSelector = () =>{
     const { state, dispatch } = useAppContext()

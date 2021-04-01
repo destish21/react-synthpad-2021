@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import{ useAppContext} from '../context'
+import { useAppContext } from '../context'
 
 const ControlsContainer = styled.div`
 display flex;
@@ -11,16 +11,16 @@ const Background = styled.div`
 display:grid;
 place-item:center;
 height: 100vh;
-background: ${props => props.theme === 'light' ? '#bbb' : '#1F2041' };
+background: ${props => props.theme === 'light' ? '#bbb' : '#1F2041'};
 `
- const Layout = ({ children, controls })=>{
-     const { state} =useAppContext()
-     console.log(state)
-     return<Background them={state.theme}>
- <div>
+const Layout = ({ children, controls }) => {
+  const { state } = useAppContext()
+  console.log(state)
+  return <Background them={state.theme}>
+    <div>
       <ControlsContainer>{controls}</ControlsContainer>
       {children}
     </div>
-         </Background>
- }
- export default Layout
+  </Background>
+}
+export default Layout
