@@ -23,7 +23,7 @@ const ScaleSelector = () =>{
     const { state, dispatch } = useAppContext()
 
     return (
-<select them={state.theme} onChange={e =>dispatch({type: 'CHANGE_SCALE', payload: e.target.value})}>
+<Select them={state.theme} onChange={e =>dispatch({type: 'CHANGE_SCALE', payload: e.target.value})}>
     {Object.entries(categories).map(cat=>{
         const [categoryName, scaleNames] = cat
         return(
@@ -42,7 +42,7 @@ const ScaleSelector = () =>{
         <option value={2}>a</option>
 
     </optgroup> */}
-</select>
+</Select>
     )
 }
 export default ScaleSelector
