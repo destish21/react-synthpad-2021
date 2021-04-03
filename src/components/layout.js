@@ -16,7 +16,7 @@ background: ${props => props.theme === 'light' ? '#bbb' : '#1F2041'};
 const Layout = ({ children, controls }) => {
   const { state } = useAppContext()
   console.log(state)
-  return <Background them={state.theme}>
+  return <Background theme={state.theme}>
     <div>
       <ControlsContainer>{controls}</ControlsContainer>
       {children}

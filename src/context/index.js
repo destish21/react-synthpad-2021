@@ -3,7 +3,7 @@ import scales from '../utils/scales'
 
 const defaultContext = {
     ...scales.light,
-    valume: 0,
+    volume: 0,
 }
 const AppContext = createContext(defaultContext)
 const reducer = (state, action) => {
@@ -23,13 +23,13 @@ const reducer = (state, action) => {
     return state
 }
 
-const AppProvider = ({ Children }) => {
+const AppProvider = ({ children }) => {
     const [state, dispatch] = useReducer(reducer, defaultContext)
     console.log(state)
 
     return (
         <AppContext.Provider value={{ state, dispatch }}>
-            {Children}
+            {children}
         </AppContext.Provider>
     )
 }
